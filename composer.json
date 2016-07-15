@@ -1,0 +1,19 @@
+{
+	"name": "usertech/coding-standards",
+	"license": "MIT",
+	"description": "Usertech coding standards for PHP Code Sniffer",
+	"authors": [
+		{
+			"name": "Ondřej Vodáček",
+			"email": "vodacek@usertechnologies.com"
+		}
+	],
+	"require": {
+		"slevomat/coding-standard": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Usertech\\": [ "Usertech" ]
+		}
+	}
+}
